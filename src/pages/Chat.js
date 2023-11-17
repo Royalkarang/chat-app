@@ -28,7 +28,7 @@ function Chat() {
   }, [navigate])
   useEffect(()=>{
     if(currentUser){
-      socket.current=io("http://localhost:5000");
+      socket.current=io("https://back-d9st.onrender.com");
       socket.current.emit("add-user",currentUser._id);
     }
   },[currentUser])
