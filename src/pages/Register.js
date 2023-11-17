@@ -26,7 +26,7 @@ function Register() {
     if (localStorage.getItem("chat-app-user")) {
       navigate("/setAvatar");
     }
-  }, []);
+  }, [navigate]);
 
   const handleSubmit = async (event) => {
     event.preventDefault();
