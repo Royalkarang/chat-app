@@ -27,7 +27,7 @@ function SetAvatar() {
         navigate("/login");
       }
     }
-  }, []);
+  }, [navigate]);
   const setProfilePicture = async () => {
     if (selectedAvatar === undefined) {
       toast.error("please select an avatar", toastOptions);
