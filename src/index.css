@@ -289,6 +289,8 @@ body {
   gap: 1rem;
 }
 .emoji {
+  width: 1.6rem;
+  height: 1.8rem;
   position: relative;
 }
 .icon {
