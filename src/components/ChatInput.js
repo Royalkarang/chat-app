@@ -10,7 +10,6 @@ function ChatInput({ handleSendMsg }) {
     }
     const handleEmojiclick=(emojiObject,event)=>{
        let message=msg;
-       console.log(emojiObject,"sadfkj")
        message+=emojiObject.emoji;
        setMsg(message);
     }
@@ -27,7 +26,7 @@ function ChatInput({ handleSendMsg }) {
                 <div className="emoji">
                     <BsEmojiSmile className='icon ' onClick={handleEmojiPicker} />
                     {
-                        showEmogiPicker &&<Picker  className='picker' onEmojiClick={handleEmojiclick}/>
+                        showEmogiPicker &&<Picker height={350} width={300} className='picker' onEmojiClick={handleEmojiclick}/>
                     }
                 </div>
             </div>
