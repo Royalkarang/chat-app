@@ -241,6 +241,7 @@ body {
   .chat {
     width: 100vw;
   }
+  
 }
 
 .chat-header {
@@ -331,7 +332,7 @@ body {
 }
 .EmojiPickerReact {
   position: absolute;
-  top: -380px;
+  top: -400px;
   background-color: #080420;
   box-shadow: 0 5px 10px #9a86f3;
   border-color: #9186f3;
